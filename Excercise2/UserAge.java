@@ -1,3 +1,5 @@
+package Excercise2;
+
 import java.lang.*;
 class UserAge {
     public static void main(String[] args) {
