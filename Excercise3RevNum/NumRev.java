@@ -1,4 +1,4 @@
-package Excercise3RevNum.Excercise3RevNum;
+package Excercise3RevNum;
 
 class NumRev {
     public static void main(String[] args) {
