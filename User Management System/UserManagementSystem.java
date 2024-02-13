@@ -29,6 +29,6 @@ class UserManagementSystem {
         System.out.println("your chosen passowrd is: " + typePassword);
         System.out.println("your chosen Role is: " + typeRole);
 
-        
+
     }
 }
