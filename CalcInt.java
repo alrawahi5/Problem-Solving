@@ -1,14 +1,14 @@
-class HelloWorld {
+class CalcInt {
     public static void main(String[] args) {
         int firstNum = 10;
-        int secondNum = 2; 
-        
+        int secondNum = 2;
+
         int addition = firstNum + secondNum;
         int subtraction = firstNum - secondNum;
         int division = firstNum / secondNum;
         int multiplication = firstNum * secondNum;
-        
-        
+
+
         System.out.println("Hello, World!");
         System.out.println("");
         System.out.println("Addition " + addition + " ");

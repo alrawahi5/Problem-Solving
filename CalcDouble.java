@@ -1,4 +1,4 @@
-class HelloWorld {
+class CalcDouble {
     public static void main(String[] args) {
         double firstNum = 22;
         double secondNum = 10; 
