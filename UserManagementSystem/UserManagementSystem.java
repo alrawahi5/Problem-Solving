@@ -12,6 +12,7 @@ class UserManagementSystem {
     private static String typePassword;
     private static Scanner userRole;
     private static String typeRole;
+
         static void addUser(Scanner ann) {
             // scan a user name
             System.out.println("Please Enter Your Name: ");
@@ -47,10 +48,26 @@ class UserManagementSystem {
     }
     public static void saveUser(){
 
+            String[] savedInfo = new String[4];
+            int i = 0;
+            while(i < savedInfo.length){
+                savedInfo[0] = typedName;
+                savedInfo[1] = typedUserName;
+                savedInfo[2] = typePassword;
+                savedInfo[3] = typeRole;
+                i++;
+            }
+            System.out.println("your saved Name is: "+savedInfo[0]);
+            System.out.println("your saved UserName is: "+savedInfo[1]);
+            System.out.println("your saved Password is: "+savedInfo[2]);
+            System.out.println("your saved Role is: "+savedInfo[3]);
+
+
     }
     public static void main(String[] args) {
             Scanner ann = new Scanner(System.in);
         addUser(ann);
         viewUser();
+        saveUser();
     }
 }
