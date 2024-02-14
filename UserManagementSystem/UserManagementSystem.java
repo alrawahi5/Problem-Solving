@@ -65,9 +65,17 @@ class UserManagementSystem {
 
     }
     public static void main(String[] args) {
+        System.out.println("what would you like to do? " + "\n" + "1- Add a User"   + "\n" + "2- View Users " + "\n" + "3- Update Users " + "\n" + "4- Remove Users" );
+        System.out.println("Please enter the number of your option below " + "\n");
+        Scanner options = new Scanner(System.in);
+        int chosenOption = options.nextInt();
+        if(chosenOption == 1) {
             Scanner ann = new Scanner(System.in);
-        addUser(ann);
-        viewUser();
+            addUser(ann);
+        }
+        else if (chosenOption == 2) {
+            viewUser();
+        }
         saveUser();
     }
 }
