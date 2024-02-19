@@ -28,5 +28,4 @@ class ArrayEx10{
         int[] array5 = {1};
         frontPiece(array5);
     }
-
 }
