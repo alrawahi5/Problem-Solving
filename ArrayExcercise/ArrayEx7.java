@@ -15,7 +15,7 @@ class ArrayEx7{
         int[] originalArr = {1,2,3};
         int[] modifiedLargestArr = new int[originalArr.length];
         Arrays.sort(originalArr);
-        
+
         for(int i = 0; i < modifiedLargestArr.length; i++){
             modifiedLargestArr[i] = originalArr[originalArr.length-1];
         }
